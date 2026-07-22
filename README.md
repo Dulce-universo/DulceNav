@@ -61,46 +61,9 @@ Puedes descargar los instaladores listos para usar directamente desde los siguie
 
 ---
 
-## 🛠️ Entorno de Desarrollo y Compilación
-
-Si deseas compilar DulceNav desde el código fuente, asegúrate de cumplir con los siguientes requisitos mínimos:
-
-* **Flutter SDK** >= 3.4.0 (Canal Estable)
-* **Android SDK** con API Level 34 y Android NDK instalado
-* **C++ Build Tools** (para la compilación nativa de Windows)
-
-### 1. Inicializar el proyecto
-Clona el repositorio e instala las dependencias:
-```bash
-git clone https://github.com/Dulce-universo/DulceNav.git
-cd DulceNav
-flutter pub get
-```
-
-### 2. Ejecutar localmente
-```bash
-# Ejecutar en Windows
-flutter run -d windows
-
-# Ejecutar en Android (con dispositivo/emulador conectado)
-flutter run -d android
-```
-
-### 3. Compilar instaladores oficiales
-El proyecto cuenta con scripts PowerShell listos para empaquetar de forma automatizada:
-```powershell
-# Compilar instalador ejecutable de Windows:
-powershell -ExecutionPolicy Bypass -File .\windows\build_windows.ps1
-
-# Compilar APKs y APK Universal de Android:
-powershell -ExecutionPolicy Bypass -File .\android\build_android.ps1
-```
-
----
-
 ## 📄 Licencia
 
 DulceNav se distribuye bajo la licencia **MIT**. Puedes consultar el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
-*Desarrollado con ❤️ por el equipo de **Dulce Universe** y la IA **Antigravity**.*
+*Desarrollado con ❤️ por el equipo de **Dulce Universe**, Desde colombia.
