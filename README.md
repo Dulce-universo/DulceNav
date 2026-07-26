@@ -62,29 +62,6 @@ Requisitos mínimos:
 * **Android SDK** API 34 + NDK 27.0.12077973
 * **C++ Build Tools** (para Windows)
 
-### 1. Inicializar el proyecto
-```bash
-git clone https://github.com/Dulce-universo/DulceNav.git
-cd DulceNav
-flutter pub get
-```
-
-### 2. Ejecutar localmente
-```bash
-flutter run -d windows
-flutter run -d android
-```
-
-### 3. Compilar instaladores oficiales v1.8.1
-```powershell
-# Compilar instalador ejecutable de Windows:
-powershell -ExecutionPolicy Bypass -File .\windows\build_windows.ps1
-
-# Compilar APKs split y APK Universal de Android:
-flutter build apk --split-per-abi
-flutter build apk
-```
-
 ---
 
 >>>>>>> 16a3a7d (v1.8.1: Bloqueador cosmetico v1.8.0 + Motor IA Autonomo GGUF v1.8.1 + Actualizacion de README)
