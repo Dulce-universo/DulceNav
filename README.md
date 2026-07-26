@@ -1,69 +1,96 @@
 # 🌌 DulceNav — Navegador Privado Inteligente Local
-> Ecosistema Dulce Universe | Versión 1.7.0 Stable
+> Ecosistema Dulce Universe | Versión 1.8.1 Stable
 
 [![Plataforma - Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d4?style=for-the-badge&logo=windows)](https://github.com/Dulce-universo/DulceNav)
 [![Plataforma - Android](https://img.shields.io/badge/Platform-Android%208.0%20%2B-3ddc84?style=for-the-badge&logo=android)](https://github.com/Dulce-universo/DulceNav)
-[![Version](https://img.shields.io/badge/Release-v1.7.0-morado?style=for-the-badge&color=8A2BE2)](https://github.com/Dulce-universo/DulceNav/releases)
+[![Version](https://img.shields.io/badge/Release-v1.8.1-morado?style=for-the-badge&color=8A2BE2)](https://github.com/Dulce-universo/DulceNav/releases)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-**DulceNav** es un navegador web premium, ultra-ligero y centrado en la privacidad absoluta del usuario. Diseñado bajo la estética **DulceUI Ultra** con efectos de glassmorphism interactivos, ofrece una suite de **Inteligencia Artificial local (DulceMind)** impulsada por Ollama 100% offline, protección biométrica de credenciales y un optimizador de recursos que adapta el navegador a tu hardware en tiempo real.
+**DulceNav** es un navegador web premium, ultra-ligero y centrado en la privacidad absoluta del usuario. Diseñado bajo la estética **DulceUI Ultra** con efectos de glassmorphism interactivos, ofrece una suite de **Inteligencia Artificial local autónoma (DulceMind v1.8.1)** impulsada por un motor GGUF in-process 100% offline (sin Ollama ni apps externas), bloqueador cosmético de anuncios (estilo ABP/uBlock), protección biométrica de credenciales y un optimizador de recursos que adapta el navegador a tu hardware en tiempo real.
 
 ---
 
-## 📥 Enlaces de Descarga (Releases Oficiales)
+## 📥 Enlaces de Descarga (Releases Oficiales v1.8.1)
 
 Puedes descargar los instaladores listos para usar directamente desde los siguientes enlaces:
 
 ### 🖥️ Windows (10 / 11 de 64 bits)
-* [**Descargar Instalador Clásico (.exe)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.7.0/DulceNav_v1.7.0_Setup.exe)  
+* [**Descargar Instalador Clásico v1.8.1 (.exe)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/DulceNav_v1.8.1_Setup.exe)  
   *Instalación rápida y segura con soporte de accesos directos y Edge WebView2 integrado.*
 
 ### 📱 Android (Oreo 8.0 o superior)
-* [**Descargar APK Universal (FAT)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.7.0/app-release.apk) (Ideal para distribución general y pruebas rápidas)
-* [**Descargar APK ARM64 (64-bits)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.7.0/app-arm64-v8a-release.apk) (Recomendado para la gran mayoría de dispositivos modernos)
-* [**Descargar APK ARM32 (32-bits)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.7.0/app-armeabi-v7a-release.apk) (Para dispositivos Android antiguos o de gama de entrada)
+* [**Descargar APK Universal (FAT)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-release.apk) (Ideal para distribución general y pruebas rápidas)
+* [**Descargar APK ARM64 (64-bits)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-arm64-v8a-release.apk) (Recomendado para la gran mayoría de dispositivos modernos)
+* [**Descargar APK ARM32 (32-bits)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-armeabi-v7a-release.apk) (Para dispositivos Android antiguos o de gama de entrada)
+* [**Descargar APK x86_64 (64-bits)**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-x86_64-release.apk) (Para emuladores y tabletas Intel/AMD)
 
 ---
 
-## ✨ Características Premium (v1.7.0)
+## ✨ Características Principalmente Destacadas (v1.8.1)
 
-### 🤖 1. DulceMind: Inteligencia Artificial Local y Offline
-* **100% Privado y Local:** Integración con **Ollama** (`http://localhost:11434`) para ejecutar modelos avanzados de lenguaje de forma local. Tus datos nunca viajan a servidores externos.
-* **Sugerencias de Modelos por Hardware:** Detecta de forma inteligente la RAM del equipo y recomienda el modelo ideal:
-  - **RAM < 8 GB:** Recomienda modelos súper optimizados como `Llama 3.2 1B` o `Qwen 2.5 1.5B`.
-  - **RAM ≥ 8 GB:** Sugiere modelos con mayor razonamiento lógico de 3B como `Llama 3.2 3B` o `Qwen 2.5 3B`.
-* **Acciones Rápidas en Página (Chips Contextuales):**
-  - **Resumir:** Genera resúmenes cortos (3 oraciones), detallados o puntos clave numerados.
-  - **Explicar:** Describe palabras o artículos en lenguaje sencillo (metáforas cotidianas) o nivel técnico estructurado.
-  - **Traducir:** Traducción bidireccional al Inglés, Portugués, Francés o Alemán conservando el sentido.
-  - **Extraer:** Identifica automáticamente Fechas, Datos numéricos relevantes o Pasos de tutoriales.
-* **Cofre de Chat Dinámico:** UI esmerilada con indicador LED de estado de Ollama en tiempo real, guía interactiva de configuración y comandos de terminal si el servidor no está corriendo.
+### 🤖 1. DulceMind v1.8.1: Inteligencia Artificial Autónoma In-Process
+* **100% Independiente (Sin Ollama):** Ejecución nativa in-process de modelos GGUF vía bindings FFI (`llama_cpp_dart`). No requiere consolas, procesos en segundo plano ni puertos HTTP.
+* **Descarga en 1 Clic desde HuggingFace:**
+  - **Llama 3.2 1B Instruct (Q4_K_M)** (~1.2 GB, recomendado por defecto).
+  - **Qwen 2.5 1.5B Instruct (Q4_K_M)** (~1.3 GB, alta precisión en español).
+  - Progreso de descarga en tiempo real (porcentaje %, MB/s, bytes) con soporte de reanudación y validación por hash SHA-256.
+* **Importador de Ollama Previa (1 Clic):** Escanea automáticamente la carpeta de blobs de Ollama local (`.ollama/models/blobs`) permitiendo importar modelos `.gguf` en 1 clic sin volver a descargarlos.
+* **Liberación Automática de Memoria RAM (5 min):** El modelo no se carga al iniciar la app. Se carga perezosamente en RAM al solicitar una acción y se libera automáticamente tras 5 min de inactividad, ahorrando ~1.2 GB de RAM.
+* **Switch de Ocultación Total:** Opción en Ajustes para ocultar completamente la IA del navegador (desaparecen botones y menús).
+* **Acciones Rápidas en Página (Chips Contextuales):** Resumir (Corto, Detallado, Puntos clave), Explicar (Sencillo con analogías o Técnico), Traducir (Inglés, Portugués, Francés, Alemán), y Extraer (Fechas, Cifras, Pasos).
 
-### 🛡️ 2. Seguridad Blindada & DulcePrivacy
-* **Protección Biométrica / PIN:** El gestor de contraseñas y autocompletado requiere autenticación mediante **Windows Hello / Huella dactilar** en el dispositivo. En su defecto, permite establecer un PIN cifrado localmente con SHA-256.
-* **Pestañas de Incógnito Blindadas:** Aislamiento absoluto de cookies y caché por pestaña. En Android, bloquea de forma nativa las capturas de pantalla y previene que el navegador se visualice en la vista de aplicaciones recientes.
-* **DoH (DNS over HTTPS):** Cifrado de consultas DNS mediante Cloudflare (1.1.1.1), Google (8.8.8.8) o Quad9 para evitar la interceptación y rastreo del ISP.
-* **Portapapeles Seguro:** Limpieza automatica de contraseñas copiadas de la memoria del portapapeles tras 30 segundos.
+### 🧹 2. Bloqueador Cosmético de Anuncios (v1.8.0)
+* **Eliminación de Huecos Blancos:** Capa cosmética independiente que oculta los elementos y contenedores donde solían cargar anuncios usando `display:none !important` y `MutationObserver` para anuncios dinámicos.
+* **Reglas Personalizadas ABP/uBlock:** Soporte de sintaxis estándar `||dominio.com##.selector` y reglas locales personalizadas desde Ajustes.
 
-### ⚡ 3. Detección de Hardware & Ajustes Adaptativos
-* **Monitoreo de Sistema:** Diagnóstico interactivo en Ajustes que detalla el Sistema Operativo, Procesador, Núcleos lógicos, RAM total instalada, almacenamiento libre y resolución de pantalla.
-* **Perfiles de Rendimiento Inteligentes:**
-  - **Ahorro de Recursos (RAM < 4 GB):** Activa hibernación rápida a los 5 min, adblocker máximo, desactiva efectos visuales (blurs) y apaga DoH para aligerar la carga del procesador.
-  - **Equilibrado (RAM 4-8 GB):** Balance entre efectos premium e hibernación moderada (15 min) con DoH activo.
-  - **Rendimiento Máximo (RAM > 8 GB y CPU ≥ 8 Cores):** Carga completa del sistema, efectos visuales de alta gama e Site Isolation activo.
-  - **Privacidad Máxima (Manual):** Bloqueo máximo, DoH en Quad9, Site Isolation y borrado al salir activados.
-* **Protección de Personalizaciones:** Si realizas cambios manuales a los interruptores de Ajustes, el navegador lo recuerda para no sobrescribir tus preferencias al cambiar de perfil sin confirmación previa.
+### 🛡️ 3. Seguridad Blindada & DulcePrivacy
+* **Autocompletado y Protección Biométrica / PIN:** El gestor de contraseñas requiere **Windows Hello / Huella dactilar** para desbloquear y autocompletar credenciales.
+* **Pestañas de Incógnito Blindadas:** Aislamiento absoluto de cookies/caché y bloqueo nativo de capturas de pantalla (`FLAG_SECURE`) en Android.
+* **DoH (DNS over HTTPS):** Cifrado de consultas DNS mediante Cloudflare (1.1.1.1), Google (8.8.8.8) o Quad9.
 
-### 🎨 4. DulceUI Ultra & Diseños Fluidos
-* **Diseño Glassmorphic:** Fondos con desenfoque de fondo dinámico y niveles de opacidad personalizables.
-* **Barra URL Adaptativa:** Mapea el color dominante de la página web visitada y transiciona suavemente el fondo de la barra del navegador (Safari/Vivaldi style), adaptando automáticamente el contraste de texto/iconos (blanco/negro) según la luminosidad del sitio.
-* **Barra de Favoritos Premium:** Acceso rápido y esmerilado con menú contextual para editar y organizar tus enlaces.
+### ⚡ 4. Detección de Hardware & Ajustes Adaptativos
+* **Perfiles Inteligentes:** Ahorro de Recursos (RAM < 4 GB), Equilibrado (RAM 4-8 GB), Rendimiento Máximo (RAM > 8 GB) y Privacidad Máxima.
 
 ---
 
+<<<<<<< HEAD
+=======
+## 🛠️ Entorno de Desarrollo y Compilación
+
+Requisitos mínimos:
+* **Flutter SDK** >= 3.24.0 (Canal Estable)
+* **Android SDK** API 34 + NDK 27.0.12077973
+* **C++ Build Tools** (para Windows)
+
+### 1. Inicializar el proyecto
+```bash
+git clone https://github.com/Dulce-universo/DulceNav.git
+cd DulceNav
+flutter pub get
+```
+
+### 2. Ejecutar localmente
+```bash
+flutter run -d windows
+flutter run -d android
+```
+
+### 3. Compilar instaladores oficiales v1.8.1
+```powershell
+# Compilar instalador ejecutable de Windows:
+powershell -ExecutionPolicy Bypass -File .\windows\build_windows.ps1
+
+# Compilar APKs split y APK Universal de Android:
+flutter build apk --split-per-abi
+flutter build apk
+```
+
+---
+
+>>>>>>> 16a3a7d (v1.8.1: Bloqueador cosmetico v1.8.0 + Motor IA Autonomo GGUF v1.8.1 + Actualizacion de README)
 ## 📄 Licencia
 
-DulceNav se distribuye bajo la licencia **MIT**. Puedes consultar el archivo [LICENSE](LICENSE) para más detalles.
+DulceNav se distribuye bajo la licencia **MIT**. Consulta [LICENSE](LICENSE) para más detalles.
 
 ---
 *Desarrollado con ❤️ por el equipo de **Dulce Universe**, Desde colombia.
