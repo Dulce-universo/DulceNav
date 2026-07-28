@@ -1,0 +1,20 @@
+==============================================================================
+                            ACERCA DE DULCENAV
+==============================================================================
+
+Bienvenido a DulceNav v1.5.0, el navegador web premium, ultra-ligero y seguro
+del ecosistema Dulce Universe.
+
+Esta version multiplataforma incorpora:
+- Interfaz moderna esmerilada DulceUI.
+- Motor de ad-blocking robusto integrado de fabrica.
+- Navegacion privada (Modo Incognito) 100% aislada.
+- Sincronizacion cifrada AES-256 local para favoritos, historial y contraseñas.
+- Gestor de contraseñas local nativo.
+- Asistente de inteligencia artificial local DulceMind.
+
+Este instalador configurara DulceNav de forma automatica en su computadora,
+creando los accesos directos necesarios y registrando el desinstalador limpio.
+
+Gracias por confiar en el ecosistema Dulce Universe.
+==============================================================================

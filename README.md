@@ -30,10 +30,13 @@
 
 ## ✨ Características Principales (v1.8.1)
 
-- 🤖 **IA Autónoma 100% Local (DulceMind):** Motor nativo GGUF in-process (`llama_cpp_dart`) sin Ollama ni dependencias externas. Descarga en 1 clic desde HuggingFace, importador de blobs de Ollama, autolaboratorio de memoria RAM a los 5 min y switch de ocultación total.
-- 🧹 **Bloqueador Cosmético de Anuncios (v1.8.0):** Elimina contenedores vacíos y huecos blancos dejados por anuncios (`display:none !important` + `MutationObserver`), compatible con reglas ABP/uBlock.
-- 🛡️ **Seguridad y Biometría:** Autocompletado cifrado protegido con **Windows Hello / Huella dactilar**, pestañas de incógnito blindadas (`FLAG_SECURE`) y DNS over HTTPS (Cloudflare/Quad9).
-- ⚡ **Perfiles de Rendimiento Automáticos:** Hibernación de pestañas inactivas adaptada a la RAM y núcleos de tu equipo.
+- 🤖 **IA Autónoma 100% Local (DulceMind):** Motor nativo GGUF in-process (`llama_cpp_dart`) sin Ollama ni dependencias externas. Descarga en 1 clic desde HuggingFace, importador de blobs de Ollama, autoliberación de memoria RAM tras 5 min de inactividad y switch de ocultación total.
+- 🎨 **Interfaz Glassmorphic & Color Adaptativo (Safari/Vivaldi):** Pantalla de inicio con degradados dinámicos y elevación hover. La barra de navegación se adapta al `<meta name="theme-color">` del sitio actual con transición suave de 300ms y contraste dinámico de texto/iconos.
+- 🔄 **Actualizaciones Incrementales In-Place:** Instalación transparente sobre versiones anteriores sin desinstalar. Garantiza la preservación del 100% de datos del usuario, contraseñas cifradas, marcadores y sesiones abiertas.
+- 🔙 **Botón de Navegación Reactivo:** Evaluación en tiempo real de `canGoBack` con habilitación/deshabilitación visual e inserción automática de historial desde HomeScreen.
+- 🧹 **Bloqueador Cosmético de Anuncios:** Elimina contenedores vacíos y huecos blancos dejados por anuncios (`display:none !important` + `MutationObserver`), compatible con reglas ABP/uBlock.
+- 🛡️ **Seguridad, Cookies Cifradas y Biometría:** Autocompletado y almacenamiento de sesiones cifrado con **DPAPI / Android Keystore AES**, protección biométrica (**Windows Hello / Huella dactilar**), pestañas de incógnito blindadas (`FLAG_SECURE`) y DNS over HTTPS (Cloudflare/Quad9).
+- ⚡ **Perfiles de Rendimiento Automáticos:** Hibernación inteligente de pestañas inactivas adaptada a la RAM y núcleos de tu equipo.
 
 ---
 
