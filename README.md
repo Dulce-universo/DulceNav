@@ -9,22 +9,22 @@
 
 ---
 
-## 📥 ENLACES DIRECTOS DE DESCARGA (v1.8.1)
+## 📥 INSTALADORES Y APKs (v1.8.1)
 
 ### 🖥️ Windows (10 / 11 de 64 bits)
-| Archivo | Descripción | Enlace Directo |
+| Archivo | Ubicación en Repo | Enlace Directo |
 |---|---|---|
-| **`DulceNav_v1.8.1_Setup.exe`** | Instalador oficial ejecutable con Edge WebView2 (11.5 MB) | [**⬇️ DESCARGAR PARA WINDOWS**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/DulceNav_v1.8.1_Setup.exe) |
+| **`DulceNav_v1.8.1_Setup.exe`** | `windows/` | [**⬇️ DESCARGAR PARA WINDOWS**](./windows/DulceNav_v1.8.1_Setup.exe) |
 
 ---
 
 ### 📱 Android (Oreo 8.0 o superior)
-| Versión APK | Arquitectura | Descripción | Enlace Directo |
+| Versión APK | Arquitectura | Ubicación en Repo | Enlace Directo |
 |---|---|---|---|
-| **APK Universal** | FAT (Todas) | Funciona en cualquier dispositivo Android | [**⬇️ DESCARGAR APK UNIVERSAL**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-release.apk) |
-| **APK ARM64** | arm64-v8a | Recomendado para celulares y tablets modernos | [**⚡ DESCARGAR APK ARM64**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-arm64-v8a-release.apk) |
-| **APK ARM32** | armeabi-v7a | Para celulares Android antiguos o de entrada | [**📦 DESCARGAR APK ARM32**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-armeabi-v7a-release.apk) |
-| **APK x86_64** | x86_64 | Para emuladores Android y dispositivos Intel/AMD | [**💻 DESCARGAR APK x86_64**](https://github.com/Dulce-universo/DulceNav/releases/download/v1.8.1/app-x86_64-release.apk) |
+| **APK Universal** | FAT (Todas) | `android/` | [**⬇️ DESCARGAR APK UNIVERSAL**](./android/app-release.apk) |
+| **APK ARM64** | arm64-v8a | `android/` | [**⚡ DESCARGAR APK ARM64**](./android/app-arm64-v8a-release.apk) |
+| **APK ARM32** | armeabi-v7a | `android/` | [**📦 DESCARGAR APK ARM32**](./android/app-armeabi-v7a-release.apk) |
+| **APK x86_64** | x86_64 | `android/` | [**💻 DESCARGAR APK x86_64**](./android/app-x86_64-release.apk) |
 
 ---
 
