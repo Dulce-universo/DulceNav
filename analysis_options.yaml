@@ -1,0 +1,42 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - 'scratch/**'
+    - 'build/**'
+  errors:
+    deprecated_member_use: ignore
+    prefer_final_locals: ignore
+    prefer_const_constructors: ignore
+    avoid_dynamic_calls: ignore
+    curly_braces_in_flow_control_structures: ignore
+    prefer_interpolation_to_compose_strings: ignore
+    unnecessary_brace_in_string_interps: ignore
+    prefer_single_quotes: ignore
+    use_build_context_synchronously: ignore
+    prefer_const_literals_to_create_immutables: ignore
+    prefer_function_declarations_over_variables: ignore
+
+linter:
+  rules:
+    # ── Código limpio ────────────────────────────────────────
+    avoid_print: true                  # Usar debugPrint en lugar de print
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+    unnecessary_const: true
+    unnecessary_new: true
+
+    # ── Seguridad ────────────────────────────────────────────
+    avoid_dynamic_calls: true          # Evitar llamadas dinámicas no tipadas
+    always_declare_return_types: true
+
+    # ── Rendimiento ──────────────────────────────────────────
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: true
+    use_key_in_widget_constructors: true
+
+    # ── Estilo ───────────────────────────────────────────────
+    sort_child_properties_last: true
+    prefer_single_quotes: true
