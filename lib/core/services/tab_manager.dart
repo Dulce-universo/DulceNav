@@ -71,8 +71,8 @@ class TabManager extends ChangeNotifier {
     // Pestaña inicial
     _tabs.add(DulceTab(
       id: _generateId(),
-      url: 'about:dulcenav',
-      title: 'Nueva pestaña',
+      url: 'https://www.google.com',
+      title: 'Google',
     ));
     _startHibernationTimer();
   }
@@ -88,13 +88,13 @@ class TabManager extends ChangeNotifier {
       _tabs.isNotEmpty && _tabs[_activeIndex].id == tabId;
 
   // --- Anadir pestana ------------------------------------
-  void addTab({String url = 'about:dulcenav', bool isIncognito = false}) {
+  void addTab({String url = 'https://www.google.com', bool isIncognito = false}) {
     if (!canAddTab) return;
 
     final newTab = DulceTab(
       id: _generateId(),
       url: url,
-      title: url == 'about:dulcenav' ? 'Nueva pestana' : url,
+      title: (url == 'about:dulcenav' || url == 'https://www.google.com') ? 'Google' : url,
       isIncognito: isIncognito,
     );
     _tabs.add(newTab);

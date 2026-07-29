@@ -45,7 +45,7 @@ class BrowserScreen extends StatefulWidget {
 
   const BrowserScreen({
     super.key,
-    this.initialUrl = 'about:dulcenav',
+    this.initialUrl = 'https://www.google.com',
   });
 
   @override
@@ -430,7 +430,7 @@ class _BrowserScreenState extends State<BrowserScreen>
   void _goForward()   => _webViewKey.currentState?.goForward();
   void _reload()      => _webViewKey.currentState?.reload();
   void _stopLoading() => _webViewKey.currentState?.stopLoading();
-  void _goHome()      => _navigate('about:dulcenav');
+  void _goHome()      => _navigate('https://www.google.com');
 
   void _handleNewTab(String url, {bool isIncognito = false}) {
     final TabManager tabs = context.read<TabManager>();
@@ -453,7 +453,7 @@ class _BrowserScreenState extends State<BrowserScreen>
 
     if (isCtrl && !isAlt && !isShift) {
       if (key == LogicalKeyboardKey.keyT) {
-        _handleNewTab('about:dulcenav');
+        _handleNewTab('https://www.google.com');
         return KeyEventResult.handled;
       }
       if (key == LogicalKeyboardKey.keyW) {
@@ -498,7 +498,7 @@ class _BrowserScreenState extends State<BrowserScreen>
         return KeyEventResult.handled;
       }
       if (key == LogicalKeyboardKey.keyN) {
-        _handleNewTab('about:dulcenav', isIncognito: true);
+        _handleNewTab('https://www.google.com', isIncognito: true);
         return KeyEventResult.handled;
       }
     } else if (!isCtrl && isAlt && !isShift) {
@@ -548,11 +548,11 @@ class _BrowserScreenState extends State<BrowserScreen>
       _updateIncognitoScreenshotBlock();
       _navigate(tabManager.activeTab.url);
     } else {
-      _navigate('about:dulcenav');
+      _navigate('https://www.google.com');
       tabManager.updateTab(
         tabId: tabManager.activeTab.id,
-        title: 'Nueva pestana',
-        url: 'about:dulcenav',
+        title: 'Google',
+        url: 'https://www.google.com',
       );
       _updateIncognitoScreenshotBlock();
     }
@@ -1517,8 +1517,8 @@ class _BrowserScreenState extends State<BrowserScreen>
                   TabBarWidget(
                     tabManager: tabManager,
                     adaptiveColor: _adaptiveColor,
-                    onNewTab: () => _handleNewTab('about:dulcenav'),
-                    onNewIncognitoTab: () => _handleNewTab('about:dulcenav', isIncognito: true),
+                    onNewTab: () => _handleNewTab('https://www.google.com'),
+                    onNewIncognitoTab: () => _handleNewTab('https://www.google.com', isIncognito: true),
                     onTabSelected: (int index) {
                       final DulceTab prev = tabManager.activeTab;
                       tabManager.switchTo(index);
@@ -2001,9 +2001,9 @@ class _BrowserScreenState extends State<BrowserScreen>
             }
           },
           onNewTab: () {
-            tabs.addTab();
+            tabs.addTab(url: 'https://www.google.com');
             Navigator.of(context).pop();
-            _navigate('about:dulcenav');
+            _navigate('https://www.google.com');
           },
         );
       },
@@ -2037,7 +2037,7 @@ class _BrowserScreenState extends State<BrowserScreen>
           );
         },
         onOpenIncognito: () {
-          _handleNewTab('about:dulcenav', isIncognito: true);
+          _handleNewTab('https://www.google.com', isIncognito: true);
         },
       ),
     );

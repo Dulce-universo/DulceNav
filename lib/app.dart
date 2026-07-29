@@ -46,7 +46,7 @@ class DulceNavApp extends StatelessWidget {
 
 // Router de la aplicacion
 final GoRouter _router = GoRouter(
-  initialLocation: '/',
+  initialLocation: '/browser',
   routes: <RouteBase>[
     GoRoute(
       path: '/',
@@ -60,7 +60,7 @@ final GoRouter _router = GoRouter(
       name: 'browser',
       builder: (BuildContext context, GoRouterState state) {
         final String url =
-            state.uri.queryParameters['url'] ?? 'about:dulcenav';
+            state.uri.queryParameters['url'] ?? 'https://www.google.com';
         return BrowserScreen(initialUrl: url);
       },
     ),

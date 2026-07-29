@@ -15,7 +15,7 @@ class AppConfig {
 
   // ─── PÁGINA DE INICIO ────────────────────────────────────
   /// URL que se carga al iniciar la app o presionar Home
-  static const String homeUrl = 'about:dulcenav';
+  static const String homeUrl = 'https://www.google.com';
 
   /// Motor de búsqueda por defecto
   static const String defaultSearchEngine = 'https://duckduckgo.com/?q=';
