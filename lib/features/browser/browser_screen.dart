@@ -3349,7 +3349,7 @@ class _DulceMindDrawerState extends State<_DulceMindDrawer> {
                   icon: const Icon(Icons.download_rounded, size: 18),
                   label: const Text('Descargar Llama 3.2 1B (~1.2 GB)', style: TextStyle(fontFamily: 'Outfit', fontSize: 13, fontWeight: FontWeight.bold)),
                   onPressed: () {
-                    ai.downloadModel(AppConfig.llama3_2_1b_config);
+                    ai.downloadModel(AppConfig.llama321bConfig);
                   },
                 ),
               ],

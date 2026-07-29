@@ -70,7 +70,7 @@ class AppConfig {
   static const bool aiEnabledByDefault = false;
 
   /// Modelos GGUF oficiales descargables en 1 clic desde HuggingFace
-  static const Map<String, String> llama3_2_1b_config = {
+  static const Map<String, String> llama321bConfig = {
     'id': 'llama-3.2-1b-instruct',
     'name': 'Llama 3.2 1B Instruct (Q4_K_M)',
     'filename': 'Llama-3.2-1B-Instruct-Q4_K_M.gguf',
@@ -80,7 +80,7 @@ class AppConfig {
     'sha256': 'a1352f205c0bb63212ae1a6ff8bf544f8064d1f5e8bd9b70b55edcd7c6df4a56',
   };
 
-  static const Map<String, String> qwen2_5_1_5b_config = {
+  static const Map<String, String> qwen2515bConfig = {
     'id': 'qwen-2.5-1.5b-instruct',
     'name': 'Qwen 2.5 1.5B Instruct (Q4_K_M)',
     'filename': 'qwen2.5-1.5b-instruct-q4_k_m.gguf',

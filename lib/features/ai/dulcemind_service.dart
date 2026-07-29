@@ -89,8 +89,8 @@ class DulceMindService extends ChangeNotifier {
 
   // Modelos recomendados oficiales
   static const List<Map<String, String>> recommendedModels = [
-    AppConfig.llama3_2_1b_config,
-    AppConfig.qwen2_5_1_5b_config,
+    AppConfig.llama321bConfig,
+    AppConfig.qwen2515bConfig,
   ];
 
   static const Duration _inactivityTimeout = Duration(minutes: AppConfig.aiRamUnloadMinutes);
@@ -383,11 +383,11 @@ class DulceMindService extends ChangeNotifier {
 
   String recommendModel() {
     final info = HardwareProfileService.instance.cachedInfo;
-    if (info == null) return AppConfig.llama3_2_1b_config['id']!;
+    if (info == null) return AppConfig.llama321bConfig['id']!;
     if (info.totalRamGb < 8.0) {
-      return AppConfig.llama3_2_1b_config['id']!;
+      return AppConfig.llama321bConfig['id']!;
     } else {
-      return AppConfig.qwen2_5_1_5b_config['id']!;
+      return AppConfig.qwen2515bConfig['id']!;
     }
   }
 
